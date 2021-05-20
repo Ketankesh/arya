@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>jewelsofjaipur</title>
+   <!-- jquery.min.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.typekit.net/rxf4lhy.css">
+  <script src="https://use.fontawesome.com/b6d2392a24.js"></script>
+  <script src="https://kit.fontawesome.com/cfcefbf8d1.js" crossorigin="anonymous"></script>
+  <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+  <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.7.94/css/materialdesignicons.min.css”>
+  <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="./jquery.flickgal.js"></script>
+  <script src="./script1.js"></script>
+  <script>
+  $(function() {
+    var $message = $('.message');
+
+    $('.yourFlickgalWrap').flickGal({
+      'infinitCarousel': true
+    })
+      .on('fg_flickstart', function(e, index) {
+        $message.html('The event <b>fg_flickstart</b> is dispatched.');
+      })
+      .on('fg_flickend', function(e, index) {
+        $message.html('The event <b>fg_flickend</b> is dispatched.');
+      })
+      .on('fg_change', function(e, index) {
+        $message.html('The event <b>fg_change</b> is dispatched.');
+      });
+  });
+</script>
+<style>
+  @import url("https://use.typekit.net/uti2iqk.css");
+</style>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'pne8mck',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+</head>
+
+<body>
+
+<!-- partial:index.partial.html -->
+<!-- 
+Please note, that you can apply .m--global-blending-active to .fnc-slider 
+to enable blend-mode for all background-images or apply .m--blend-bg-active
+to some specific slides (.fnc-slide). It's disabled by default in this demo,
+because it requires specific images, where more than 50% of bg is transparent or monotone
+-->
+<div class="demo-cont"  >
+  <!-- slider start -->
+  <div class="fnc-slider example-slider">
+    <div class="fnc-slider__slides" >
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-green m--active-slide">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>CLASIC</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>BANGLES</span>
+              </div>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-dark">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>DAIMAND</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>BRACELETS</span>
+              </div>
+            </h2>
+            
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-red">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>HEAVY</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>NECK SETS</span>
+              </div>
+            </h2>
+            
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-blue">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>LIGHT</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>NECK SETS</span>
+              </div>
+            </h2>
+            
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+    </div>
+    <nav class="fnc-nav">
+      <div class="fnc-nav__bgs">
+        <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+        <div class="fnc-nav__bg m--navbg-dark"></div>
+        <div class="fnc-nav__bg m--navbg-red"></div>
+        <div class="fnc-nav__bg m--navbg-blue"></div>
+      </div>
+      <div class="fnc-nav__controls">
+        <button class="fnc-nav__control">
+          Clasic Bangles
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+          Daimand Bracelate
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+          Heavy Necksets
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+          Light Necksets
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+  <!-- slider end -->
+  <div class="demo-cont__credits">
+    <div class="demo-cont__credits-close"></div>
+    <h2 class="demo-cont__credits-heading">Made by</h2>
+    <img src="yes.jfif" alt="" class="demo-cont__credits-img" />
+    <h3 class="demo-cont__credits-name">Keshav Arya</h3>
+
+    <a href="https://www.instagram.com/_.pure_evil_/" target="_blank" class="demo-cont__credits-link">My Instagarm</a>
+    <h2 class="demo-cont__credits-heading">Based on</h2>
+    <a href="https://dribbble.com/shots/2375246-Fashion-Butique-slider-animation" target="_blank" class="demo-cont__credits-link">Concept by Kreativa Studio</a>
+    <h4 class="demo-cont__credits-blend">Global Blend Mode</h4>
+    <div class="colorful-switch">
+      <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
+      <label class="colorful-switch__label" for="colorful-switch-cb">
+        <span class="colorful-switch__bg"></span>
+        <span class="colorful-switch__dot"></span>
+        <span class="colorful-switch__on">
+          <span class="colorful-switch__on__inner"></span>
+        </span>
+        <span class="colorful-switch__off"></span>
+      </label>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+  
+    <!----navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+		<div class="container">
+			<a class="navbar-brand" href=""><img src="Logo.png" height="50px" width="50px" ></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+            <i class="fas fa-phone"> Mobile No. 9871908614</i></a>
+          <br>
+          <a href="mailto:ketanarya9999@gmail.com" style="color: black;"><i class="far fa-envelope">E-Mail</i></a>
+					
+          </li>
+				</ul>
+			</div>
+	</nav>
+  <!--form-->
+  <div class=" yes" style="margin-top: 0.5%;">
+  <div class="container">
+    <div class="row" >
+      <div class="col">
+        
+      </div>
+      <div class="col-md-auto">
+        <p style="font-family: brush-script-std,sans-serif; font-weight: 400;font-style: normal; color: whitesmoke;font-size: 50px; text-align: center; margin-top: 10%;">EXCLUSIVE<p>
+        <h1 class="text-center" style=" font-family: allura,sans-serif; font-weight: 400;font-style: normal; font-size:50px;color: rgb(231, 56, 70);">Diamond Polky Jewellary</h1><p style=" font-family: allura,sans-serif; font-weight: 400;font-style: normal; font-size:25px;color: rgb(231, 56, 70); text-align: center;">Best Quality & Design</p>
+        <div class="form-group"style="background-color: rgba(94, 66, 168, 0.596);margin-left:auto ; margin-right:auto;">
+          <h2 class=" text-center" style="font-family: flood-std,sans-serif;font-weight: 100;font-style: normal; color: rgb(231, 56, 70);font-size: 25px;"><br><p>Book appointment with our<br> Jewellery Expert</p></h2>
+          <p class="text-white text-center">SUBMIT YOUR QUERY</p>
+          <form action="" meathod="post" class="text-center">
+            <input type="name" name="name" size="40" placeholder=" Name"><br><br>
+            <input type="name" name="name" size="40" placeholder="Mobile No."><br><br>
+            <input type="name" name="name" size="40" placeholder="E-Mail Address"><br><br>
+            <input type="name" name="name" size="40" placeholder="Country"><br><br>
+            <textarea name="message" rows="6" cols="43" placeholder="Requirement"></textarea><br><br>
+            <input class="btn btn-danger btn-lg" type="submit" value="Submit"><br><br>
+          </form>
+        </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<!--center start-->
+<div class="container-fluid " style="margin-top: 5%;">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2" >
+    </div>
+    <div class="col-md-auto">
+      <h1 id="yes1">9 Things that no jeweller would want you to know about<br>
+Diamond Polki Jewellery /Jadau Jewellery</h1>
+<div class="container" >
+  <img src="./styling/hicon.jpg" class="rounded mx-auto d-block" alt="...">
+</div>
+      
+    </div>
+    <div class="col col-lg-2">
+      </div>
+    </div>
+
+  </div>
+ <h2 id="yes1" style="font-size: 35px; margin-top:9%;">Important points to note while shopping:</h2>
+      <!--center text-->
+       
+        <div class="container" style="margin-top: 6%;">
+          <div class="row">
+          <div class="col-sm">
+           <img src="./styling/1.jpg" style="float: right;"><p id="yes2"> 77% of jewellers in India hide the actual purity of Gold used in Ghat and components of the diamond polki jadau jewellery</p>
+           <img src="./styling/2.jpg" style="float: right;"><p id="yes2"> 99% of Polki Jewellery is not certified for natural diamond polki.</p><br>
+           <img src="./styling/3.jpg" style="float: right; ;"><p id="yes2"> 83% of customers don’t have the knowledge of proper Gemstone quality check up and cheated by Jewellers.</p>
+           <img src="./styling/4.jpg" style="float: right;"><p id="yes2"> 85% of Jewellers use heavy Lac or mix it with metal in order to increase the Gold Weight and charge extra unethically.</p>
+           <img src="./styling/5.jpg" style="float: right;"><p id="yes2"> Averagely finished jewellery should not be accepted.If made by skilled hands, the quality and finish of the final piece of jewellery will be superior.</p>
+          </div><br><br><br><br>
+          <div class="col-sm text-center">
+             <img src="./styling/middle-image.jpg" class="rounded " id="yes3" alt="...">
+            
+          </div>
+          <div class="col-sm">
+            <img src="./styling/6.jpg" style="float: left;"><p id="yes2" style="text-align: end;"> 57% of Diamond Polki customers are cheated due to not buying from a reliable and authentic jeweller.As you are investing into a very high-value  asset, make sure to buy from a <br>reliable and authentic Jeweller.</p>
+           <img src="./styling/7.jpg" style="float: left;"><p id="yes2" style="text-align:end"> 71% of Diamond Polki Jewellers selling Non-Branded Jewellery.When buying from a brand,post-sales service like return policy,<br> annual cleaning etc should be checked upon.</p>
+           <img src="./styling/8.jpg" style="float: left;"><p id="yes2" style="text-align:end"> Most local jadau jewellers copy designs from bigger brands.Always buy from someone who invests into original inspiration and concept.</p>
+           <img src="./styling/9-1.png" style="float: left;"><p id="yes2" style="text-align:end"> 89% Diamond Polki Jewellery sold in the market is not hallmarked.</p>
+           </div>
+          </div>
+          </div>
+        </body>
+
+
+        <div class="container-fluid " style="margin-top: 5%;">
+          <div class="row justify-content-md-center">
+            <div class="col col-lg-2" >
+            </div>
+            <div class="col-md-auto">
+              <h1 id="yes1">3 Most common problems people face while shopping Diamond Polki Jewellery</h1>
+        <div class="container" >
+          <img src="./styling/hicon.jpg" class="rounded mx-auto d-block" alt="...">
+        </div>
+              
+            </div>
+            <div class="col col-lg-2">
+              </div>
+            </div>
+
+</div>
+
+            <!--card hover-->
+      
+
+
+          <div class="container" style="margin-top: 5%;">
+            
+          <div class=" card-deck">
+            <div class="card" style="width: 18rem; margin-left: 5%;">
+              
+              <div class="card-body">
+                <h5 class="card-title text-center">Poor Grade</h5>
+                <p style="text-align: center;"><img src="./styling/line.jpg" style="width: 15ch;"class="card-img-top" alt="..."></p>
+                <p class="card-text">Only 17% of Diamond Polki Jewellery Buyers have some knowledge, rest are cheated.</p>
+              </div>
+              
+            </div>
+            <div class="card" style="width: 18rem; margin-left: 5%;">
+              
+              <div class="card-body">
+                <h5 class="card-title text-center">Common Design</h5>
+                <p style="text-align: center;"><img src="./styling/line.jpg" style="width: 15ch;"class="card-img-top" alt="..."></p>
+                    
+                    <p class="card-text">87% Jewellers sell common designs there is no uniqueness.</p>
+              </div>
+              
+            </div>
+            <div class="card" style="width: 18rem; margin-left: 5%;">
+              
+              <div class="card-body">
+                <h5 class="card-title text-center">Poor Quality</h5>
+                <p style="text-align: center;"><img src="./styling/line.jpg" style="width: 15ch;"class="card-img-top" alt="..."></p>
+                          
+                          <p class="card-text">77% Jewellers hide the different purity of Gold used in Diamond Polki Jewellery.</p>
+              </div>
+             </div>
+            </div>
+          </div>
+</div>
+
+          <style>
+            .card{
+              box-shadow:2px 3px 3px rgb(43, 39, 34) ;
+              border:none;
+            }
+            .card:hover{
+              -webkit-box-shadow:-1px 9px 40px -12px ;
+      -moz-box-shadow:-1px 9px 40px -12px;
+      box-shadow: -1px 9px 40px -12px;
+      
+            }
+          </style>
+
+               <!--buton 1-->
+               <div class="container " style="margin-bottom:3%;">
+     
+                <div class="row"  style="margin-top: 5%;">
+                  <div class="col">
+                   
+                  </div>
+                  <div class="col">
+                    <div class="expand_button"> <a href="#" class="btn e-button btn-sm"> <span class="e-button-text">Submit &nbsp;&nbsp;&nbsp;<i class="far fa-envelope red " style="padding-right:3px;"></i></span> </a> </div>
+                  </div>
+                  <div class="col">
+                 
+                  </div>
+                </div>
+              </div>
+                
+
+
+
+              <div class=" container-fluid kesh" >
+                <div class="container " style="margin-top: 2%;">
+                    <div class="row justify-content-md-center">
+                      <div class="col col-lg-2" >
+                      </div>
+                      <div class="col-md-auto">
+                        <h1 id="yes1" style="text-align: center;">12 reasons on why you should invest your hard earned money into buying jewellery from Jewels of Jaipur</h1>
+                  <div class="container" >
+                    <img src="./styling/hicon.jpg" class="rounded mx-auto d-block" alt="...">
+                  </div>
+                        
+                      </div>
+                      <div class="col col-lg-2">
+                        </div>
+                      </div>
+                  </div>
+                  <h2 id="yes1" style="font-size: 35px; margin-top:6%;">Important points to note while shopping:</h2>
+                
+                
+                
+                
+                               <div class="container">
+                    
+                  <div class="row" style="margin-top: 5%; margin-left: 3%;">
+                    
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  </div>
+                
+                  <div class="row" style="margin-left: 3%;" >
+                  
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  </div>
+                
+                 <div class="row" style="margin-left: 3%;">
+                  
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  <img src="./styling/bg (1).jpg" class="img-fluid rounded" alt="..." id="img">
+                  </div>
+                                </div>
+                                 <!--buton 2-->
+                        
+                     
+                          <div class="row"  style="margin-top:1%;">
+                            <div class="col">
+                             
+                            </div>
+                            <div class="col">
+                              <div class="expand_button"> <a href="#" class="btn e-button btn-sm"> <span class="e-button-text">Submit &nbsp;&nbsp;&nbsp;<i class="far fa-envelope red " style="padding-right:3px;"></i></span> </a> </div>
+                            </div>
+                            <div class="col">
+                           
+                            </div>
+                          </div>
+                       
+                       
+                   </div>
+  
+  
+ <!----about-->
+ <div class="container-fluid"  style="background-image: url(./styling/about-bg.jpg); margin-top: 4%;">
+  <div class="container ">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2" >
+      </div>
+      <div class="col-md-auto">
+        <h1 id="yes1" style="text-align: center;">About Us</h1>
+  <div class="container" >
+    <img src="./styling/hicon.jpg" class="rounded mx-auto d-block" alt="...">
+  </div>
+        
+      </div>
+      <div class="col col-lg-2">
+        </div>
+      </div>
+  </div>
+
+  <div class="container" style="margin-top: 4%;">
+    <div class="row">
+      <div class="col" id="yes1"><p style="font-size:27px; text-align:justify;">Infusing modern sensibilities into the rich legacy & cultural glory of Jaipur, Jewels Of Jaipur brings out the quintessential elegance that has sustained through several decades through our exquisite handcrafted statement piece.<br>
+
+        Designed to dazzels the modern bride, the collection isa beautiful confluence of traditional artistry and contemporary designs by our ingenious craftsmen.</p></div>
+        <div class="col">
+         <a><img src="video.jpg"></a>
+      </div>
+      </div>  
+  </div>
+
+</div>    
+      
+<!----slider1-->
+<div class="container-fluid" style="margin-top: 2%;">
+  <div class="container ">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2" >
+      </div>
+      <div class="col-md-auto">
+        <h1 id="yes1" style="text-align: center;">Featured Products</h1>
+  <div class="container" >
+    <img src="./styling/hicon.jpg" class="rounded mx-auto d-block" alt="...">
+  </div>
+        
+      </div>
+      <div class="col col-lg-2">
+        </div>
+      </div>
+  </div>
+</div>
+
+<!--slider-->
+<div class="container" style="margin-top:4%">
+
+  <div class="yourFlickgalWrap">
+
+    <div class="container">
+      <div class="containerInner">
+        <div id="sea01" class="item"><img src="./styling/Vedika-Mohan-in-JOJ.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea02" class="item"><img src="./styling/Vedika-Mohan-in-JOJ-1.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea03" class="item"><img src="./styling/payal-raj-arahBWUbWII-unsplash.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea04" class="item"><img src="./styling/dollar-gill-6IBPGobA4U8-unsplash.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea05" class="item"><img src="./styling/sama-hosseini-xdDUmYC3eLg-unsplash.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea06" class="item"><img src="./styling/sonish-sinjali-magar-jV3_MmXhAbU-unsplash.jpg" style="height:250px; width:250;"></div>
+        <div id="sea07" class="item"><img src="./styling/butterfly-flower-kCuCU1DqLpw-unsplash.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea08" class="item"><img src="./styling/f1.jpg" style="height:300px; width:auto;"></div>
+        <div id="sea08" class="item"><img src="./styling/amish-thakkar-ACAHBwOsRSM-unsplash.jpg" style="height:300px; width:auto;"></div>
+      
+      </div>
+    </div>
+
+    <div class="arrows">
+      <a href="javascript:void(0);" class="prev">&lt;&lt;&nbsp;</a>
+      <a href="javascript:void(0);" class="next">&nbsp;&gt;&gt;</a>
+    </div>
+
+  </div>
+      <!----slider2-->
+<div class="container-fluid" style="margin-top:8%;">
+  <div class="container ">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2" >
+      </div>
+      <div class="col-md-auto">
+        <h1 id="yes1" style="text-align: center;">Celebs Style</h1>
+  <div class="container" >
+    <img src="./styling/hicon.jpg" class="rounded mx-auto d-block" alt="...">
+  </div>
+        
+      </div>
+      <div class="col col-lg-2">
+        </div>
+      </div>
+  </div>
+</div>
+
+<!--slider 2-->
+<div class="container" style="margin-top:4%">
+
+  <div class="yourFlickgalWrap">
+
+    <div class="container">
+      <div class="containerInner">
+        <div id="sea01" class="item"><img src="./styling/model.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea02" class="item"><img src="./styling/sonakshi-1.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea03" class="item"><img src="./styling/cover-sonakshi_POST-1.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea04" class="item"><img src="./styling/kareena.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea05" class="item"><img src="./styling/sri-lanka-1.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea06" class="item"><img src="./styling/chitrangda-singh-for-khanna-jewellers.jpg" style="height:250px; width:250;"></div>
+        <div id="sea07" class="item"><img src="./styling/aish.jpg" style="height:250px; width:auto;"></div>
+        <div id="sea08" class="item"><img src="./styling/sunnyjuly15.webp" style="height:300px; width:auto;"></div>
+      </div>
+    </div>
+
+    <div class="arrows">
+      <a href="javascript:void(0);" class="prev">&lt;&lt;&nbsp;</a>
+      <a href="javascript:void(0);" class="next">&nbsp;&gt;&gt;</a>
+    </div>
+
+  </div>
+
+  
+   <!----offers-->
+ 
+  <div class="container " style="margin-top: 7%;">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2" >
+      </div>
+      <div class="col-md-auto">
+        <h1 id="yes1" style="text-align: center;">Limited Offers</h1>
+  <div class="container" >
+    <img src="./styling/hicon.jpg" class="rounded mx-auto d-block" alt="...">
+  </div>
+        
+      </div>
+      <div class="col col-lg-2">
+        </div>
+      </div>
+  </div>
+
+  
+    <div class="row text-center" >
+      <div>
+     <img src="./styling/banner-1-2.jpg" class="rounded float-left" height="180px" width="450px">
+      </div>
+      <div>
+        <img  src="./styling/banner-2-2.jpg" class="rounded float-right" height="180px" width="450px" >
+      </div>
+      
+   
+  </div>
+
+
+</div>   
+
+
+
+ </body>
+ 
+</html>
